@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0
+}
+#banner{
+	background-image:url("NamHum_BannerWebDesktop_1920x900px.png");
+	background-size:cover;
+	height:100vh
+   
+	
+}
+#banner img{
+	width:7%;
+	margin-left:20px;
+	margin-top:10px
+}
+#banner ul li{
+	padding:10px;
+	display:inline;
+	font-family:-apple-system,BlinkMacSystemFont,open sans,segoe ui,Arial,noto sans,liberation sans,sans-serif;
+	font-weight:500;
+	color:black;
+	font-size:15px
+}
+#banner ul li input{
+	background-color:#FFC600;
+	padding:8px 13px;
+	color:white;
+	border-radius:20px;
+	font-family:-apple-system,BlinkMacSystemFont,open sans,segoe ui,Arial,noto sans,liberation sans,sans-serif;
+	font-weight:500px;
+	font-size:15px;
+	border:none
+	
+}
+#banner ul{
+	list-style-type:none;
+	float:right;
+	margin-top:20px;
+	margin-right:20px
+		
+}
+#banner header{
+	background-color:rgba(255,255,255,0.54);
+	height:80px;
+	justify-content:center;
+	align-items:center
+}
+.aboutarena{
+	display:flex;
+	padding:30px;
+	justify-content:center;
+	margin:80px
+}
+.item{
+	text-align:center;
+	border-radius:20px;
+	padding:20px;
+	margin:0 10px;
+	width:150px;
+	box-shadow:0 0 15px 2px #ced4da;
+	
+}
+.item:hover{
+	background-color:#ffc600;
+}
+.item img{
+	width:70%;
+	padding-bottom:10px
+}
+.item h4{
+	font-family:-apple-system,BlinkMacSystemFont,open sans,segoe ui,Arial,noto sans,liberation sans,sans-serif;
+}
+.aboutbenphai{
+	display:flex;
+    width:60%
+}
+.aboutbentrai h1{
+	font-family:-apple-system,BlinkMacSystemFont,open sans,segoe ui,Arial,noto sans,liberation sans,sans-serif;
+	color:#ffc600;
+	font-size:2.5rem;
+}
+.aboutbentrai h4{
+	font-family:-apple-system,BlinkMacSystemFont,open sans,segoe ui,Arial,noto sans,liberation sans,sans-serif;
+	position:absolute;
+	bottom:0;
+}
+.aboutbentrai{
+	position:relative;
+	width:40%
+}
+.videoclip{
+	padding:30px;
+    text-align:center;
+}
+.videoclip iframe{
+	border-radius:20px
+}
+.maucam{
+	color:#ffc600;
+}
+.chuale{
+	padding:50px 120px;
+}
+.daotaotuyensinh h1{
+	font-family:-apple-system,BlinkMacSystemFont,open sans,segoe ui,Arial,noto sans,liberation sans,sans-serif;
+	font-size:2.5rem;
+	margin-bottom:10px;
+}
+.daotaotuyensinh hr{
+	background-color:#000000;
+	height:1px;
+}
+.daotaotuyensinh p {
+	font-family:-apple-system,BlinkMacSystemFont,open sans,segoe ui,Arial,noto sans,liberation sans,sans-serif;
+	font-size:16px;
+	margin-top:30px;
+}
+.indam{
+	font-weight:bold;
+}
+.daotaotuyensinh .noidungdaotao{
+	margin-top:30px;
+	padding:50px 20px;
+	box-shadow:0px 0px 10px 5px #0000003c;
+	font-family:-apple-system,BlinkMacSystemFont,open sans,segoe ui,Arial,noto sans,liberation sans,sans-serif;
+}
+.daotaotrai h1{
+	padding:10px 0;
+}
+
+.daotaotrai input{
+	border:2px solid #ffc600;
+	background-color:transparent;
+	margin-top:20px;
+	padding:10px 20px;
+	border-radius:20px;
+	font-family:-apple-system,BlinkMacSystemFont,open sans,segoe ui,Arial,noto sans,liberation sans,sans-serif;
+	font-weight:bold
+}
+.daotaotuyensinh .noidungdaotao{
+	display:flex;
+}
+.noidungdaotao .daotaotrai,.daotaophai{
+	width:50%;
+	position:relative;
+}
+.noidungdaotao .daotaophai .anhnen{
+	width:80%;
+	margin-left:60px;
+}
+.anhtitle{
+	position:absolute;
+	width:30%;
+	right:30px;
+}
+.daotaotrai{
+	background-image:url("hk4-number.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.thayco{
+	display:flex;
+}
+.thayco .anhavatar img{
+	width:100%;
+	border-radius:20px;
+		
+}
+.thayco .anhavatar{
+	width:30%;
+	text-align:center;
+	font-family:-apple-system,BlinkMacSystemFont,open sans,segoe ui,Arial,noto sans,liberation sans,sans-serif;
+}
+.thayco{
+	padding:50px 200px;
+}
+.thayco h5{
+	font-style:none;
+}
+.chiase{
+	background-color:#e6e9ec;
+	text-align:center;
+	font-family:-apple-system,BlinkMacSystemFont,open sans,segoe ui,Arial,noto sans,liberation sans,sans-serif;
+	font-style:italic;
+	font-weight:none;
+	margin-left: 20px
+}
+.doan h1{
+	font-family:-apple-system,BlinkMacSystemFont,open sans,segoe ui,Arial,noto sans,liberation sans,sans-serif;
+	font-size:35px;
+}
+.doan hr{
+	border:0.5px solid black;
+	background-color:black;
+	width:10%;
+	margin:0 auto;
+	margin-top:30px;
+		
+}
+.doan{
+	height:1000px;
+	margin-top:100px;
+	text-align:center;
+}
+.hocki li{
+	display:inline;
+	padding:0 10px;
+	font-family:-apple-system,BlinkMacSystemFont,open sans,segoe ui,Arial,noto sans,liberation sans,sans-serif;
+}
+.hocki{
+	margin-top:40px;
+}
+.hocki li:hover{
+	border-bottom:3px solid black;
+	padding-bottom:10px;
+}
+.sanphamdoan{
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	grid-template-rows:200px 200px;
+}
+.anpham1 img{
+	height:100%;
+	border-radius:20px;
+}
+.thongtindangnhap{
+	background-image:url("untitled-2-01-835.jpg");
+	height:100vh;
+}
